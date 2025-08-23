@@ -38,5 +38,3 @@ class EmployeeSerializer(serializers.ModelSerializer):
     #     instance.cname = validated_data.get("cname",instance.cname)
     #     instance.save()
     #     return instance
-
-

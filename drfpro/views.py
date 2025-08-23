@@ -6,7 +6,6 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.views import APIView
 
-
 class Curdapi(ModelViewSet):
     def addpost(self,request):
         data = request.data
@@ -43,4 +42,5 @@ class Curdapi(ModelViewSet):
         return Response(status=status.HTTP_202_ACCEPTED)
     
 class Curdapiview(APIView):
+    pass
         
