@@ -43,4 +43,5 @@ class Curdapi(ModelViewSet):
         return Response(status=status.HTTP_202_ACCEPTED)
     
 class Curdapiview(APIView):
+    pass
         
