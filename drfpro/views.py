@@ -43,8 +43,3 @@ class Curdapi(ModelViewSet):
     
 class Curdapiview(APIView):
     pass
-<<<<<<< HEAD
-        
-=======
-        
->>>>>>> 848e96966c41c7e6b77ae306e03521ae36389433
