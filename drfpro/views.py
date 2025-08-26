@@ -43,3 +43,5 @@ class Curdapi(ModelViewSet):
     
 class Curdapiview(APIView):
     pass
+class Postapiview(APIView):
+    pass
