@@ -24,7 +24,7 @@ urlpatterns = [
     path('getemp',Curdapi.as_view({"get":"getemp"})),
     path('updatename/<int:pk>',Curdapi.as_view({"put":"updatename"})),
     path('patchemployee/<int:pk>',Curdapi.as_view({"patch":"patchemployee"})),\
-    path('api',Curdapiview.as_view()),       
+    path('get',Curdapiview.as_view({"get":"get"})),       
     
 
 ]

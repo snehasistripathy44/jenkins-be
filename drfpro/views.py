@@ -41,7 +41,8 @@ class Curdapi(ModelViewSet):
         #     esiri.save()
         return Response(status=status.HTTP_202_ACCEPTED)
     
-class Curdapiview(APIView):
-    pass
-class Postapiview(APIView):
-    pass
+class Curdapiview(ModelViewSet):
+    def get(self,request):
+        qs = Employee.objects.filter().values()
+        return Response(qs,status=status.HTTP_200_OK)
+    
