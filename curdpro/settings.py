@@ -77,11 +77,16 @@ WSGI_APPLICATION = 'curdpro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'drfpro',
+        'NAME': 'cicd1',
         'USER': 'postgres',
-        'PASSWORD': 'sonu123',
-        'HOST': 'localhost',
+        'PASSWORD': 'Snehasis123',
+        'HOST': 'database-1.cby2qggciutb.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
+#         host = "database-1.cby2qggciutb.ap-south-1.rds.amazonaws.com"
+# port = 5432
+# database = "Testdb"
+# user = "postgres"
+# password = "Snehasis123"
     }
 }
 

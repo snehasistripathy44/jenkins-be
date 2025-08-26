@@ -22,5 +22,7 @@ class Employee(models.Model):
 
     class Meta:
         db_table = "employee"
+class Student(models.Model):
+    pass
 
     
