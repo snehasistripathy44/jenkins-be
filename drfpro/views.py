@@ -49,6 +49,7 @@ class Curdapi(ModelViewSet):
 class Curdapiview(ModelViewSet):
     def get(self,request):
         # qs = Employee.objects.filter().values()
+        
         return Response({"hii cicd completed"},status=status.HTTP_200_OK)
     
     
