@@ -46,6 +46,7 @@ class Curdapiview(ModelViewSet):
         qs = Employee.objects.filter().values()
         #snehasis
         #sonu
+        #Tripathy
         return Response(qs,status=status.HTTP_200_OK)
         
     
