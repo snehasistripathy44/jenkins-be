@@ -45,6 +45,7 @@ class Curdapiview(ModelViewSet):
     def get(self,request):
         qs = Employee.objects.filter().values()
         #snehasis
+        #sonu
         return Response(qs,status=status.HTTP_200_OK)
         
     
