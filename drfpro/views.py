@@ -41,8 +41,14 @@ class Curdapi(ModelViewSet):
         #     esiri.save()
         return Response(status=status.HTTP_202_ACCEPTED)
     
+# class Curdapiview(ModelViewSet):
+#     def get(self,request):
+#         qs = Employee.objects.filter().values()
+#         return Response(qs,status=status.HTTP_200_OK)
+    
 class Curdapiview(ModelViewSet):
     def get(self,request):
-        qs = Employee.objects.filter().values()
-        return Response(qs,status=status.HTTP_200_OK)
+        # qs = Employee.objects.filter().values()
+        return Response({"hii cicd completed"},status=status.HTTP_200_OK)
+    
     
